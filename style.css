@@ -15,7 +15,7 @@ body{
   }
 
    a{
-   	color: rgb(180,255,255);
+   	color: white;
    	font-size: 20px;
    	font-family: Helvetica;
    }
@@ -76,16 +76,15 @@ body{
     }
       }
 
-  }
+  
 
-   .SériesNetflix{
-    background: rgba(255,255,255,0.5);
-    box-shadow:0px 10px 30px;
-    border-radius: 30px;
-    margin:60px auto;
+   .SériesNetflix {
+      background: rgba(0,0,20,0.7);
     padding: 20px;
-   }
-   
+    box-shadow:0px 10px 30px;
+    border-radius: 10px;
+    margin:60px auto;
+     }
    
 
    .Foot{
@@ -128,7 +127,7 @@ body{
    }
   
  .btn{
-    background-color: rgba(255,170,70,0.5);
+    background-color: rgba(255,0,0,0.9);
     color: black;
     padding: 20px 20px;
     text-align: center;
@@ -136,3 +135,7 @@ body{
     margin: 30px 660px;
     border-radius: 5px;
   }
+
+.img-circle{
+  border-radius: 50%;
+}
